@@ -4,7 +4,7 @@ $(document).ready(function () {
 
 function addDobberLinks() {
     $('.playertablePlayerName').children(':first-child').each(function () {
-        $(this).parent().append("<a href='" + formatDobberProfileLinkFromPlayerNameText($(this).text()) + "' target='_blank'>go</a>");
+        $(this).parent().append("<a href='" + formatDobberProfileLinkFromPlayerNameText($(this).text()) + "' target='_blank'><img style='margin: 0 6px;' border='0' alt='Dobber Hockey' width='16px' height='16px' src='http://www.dobberhockey.com/wp-content/themes/sports/images/favicon.png' /></a>");
     });
 }
 
